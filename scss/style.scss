@@ -1,0 +1,215 @@
+@import "scss/colores";
+@import "scss/fuentes";
+$fondoTitulo: red;
+
+
+
+
+body {
+    background-color: $colorFondo;
+    color: $colorLetras;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body_style {
+    font-family: $fuenteRoboto;
+}
+h1 { 
+  font-family: $fuenteMontserrat;
+  }
+
+h2 {
+ font-family: $fuenteMontserrat;
+}
+
+
+
+/*MENÚ*/
+
+.nav-link:hover {
+	border-bottom: 3px solid white;
+	transition: 0.3s;
+}
+
+.nav-item {
+	margin-right: 30px;
+}
+.navbar-nav.ml-auto {
+	margin-right: 10px;
+}
+
+.navbar__style {
+  font-size: 15px;
+  color: $colorLetras;
+  background-color: $colorNavbarYFooter;
+  opacity: 0.7; }
+
+.navbar-brand {
+	margin-left: 70px;
+}
+
+  /*FOOTER*/
+
+.footer__style {
+  background-color: $colorNavbarYFooter;
+  color: $colorLetras;
+  font-size: 10px; } 
+
+.footer__style a {
+  margin: 2%; }
+
+/*INDEX*/
+
+.carousel-inner {
+	margin: 10px;	
+}
+
+.mt-1.main_titule {
+	font-size: 35px;
+	margin-bottom:30px;
+}
+.parrafoIndex--fontSize {
+	font-size: 26px;
+}
+
+/*JUGADORES*/
+
+.table-striped {
+	border: 1px solid #aaa;
+	border-collapse: collapse; 
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	margin-bottom:600px;
+	} 
+
+.card {
+	margin: 20px;
+}
+
+.tituloIdolos--marginTop {
+	margin-top: 100px;
+}
+
+.fondoTabla--fondoColor {
+	background-color: $colorNavbarYFooter;
+}
+tr td {
+	text-align: center;
+}
+
+tr th {
+	text-align: center;
+}
+
+table {
+	justify-content: center;
+}
+
+.card-body {
+	color: black;
+}
+/*GALERÍA*/
+
+
+
+.fotoContainer--margin:hover {
+	transform: scale(1.1);
+} 
+
+
+.obj_flex {
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%
+    }
+}
+
+
+
+.fotoContainer--margin {
+	margin: 10px;
+}
+
+
+
+
+/*TITULOS*/
+.titulosDeCampeonatos--modifier {
+	color: $colorLetras;
+	font-size: 35px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/fondorivertitulos.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divParrafoTitulos--modifier {
+	margin: 0px;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 768px) {
+	.card {
+		 margin-left: 70px;
+	}
+}
+
+@media (max-width: 576px) {
+	.table-striped {
+		 width: 450px;
+	}
+}
+
+@media (max-width: 576px) {
+	.fotoContainer--margin {
+		 margin-left: 70px;
+		 margin-bottom: 50px
+	}
+}
+@media (max-width: 576px) {
+	.divParrafoTitulos--modifier {
+		 margin-top: 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	.parrafoIndex--fontSize {
+		 font-size: 18px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		 margin: 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	.carousel-inner {
+		 margin:  0px;
+	}
+}
