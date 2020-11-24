@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.4.3",
-    "highlight.js": "^10.1.1",
+    "highlight.js": "^10.1.2",
     "jquery": "^3.5.1"
   }
 }
